@@ -1,13 +1,23 @@
 public class Task9 {
-    public static String[] fixTheMeerkat(String[] arr) {
+    public static long[] powersOfTwo(int n){
+        long[] tablica=new long[n];
+        int silnia=1;
+        if(n==0) { silnia=1; }
+    for(int i=0; i<n; i++)
+    {
+        tablica[i]=i+1;
 
-        if(arr[0] == "head"){
-            return arr[0];}
-        if(arr[0] == "body"){
-            return arr[1];}
-        if(arr[0] == "tail"){
-            return arr;}
+    }
+        for(int i=0; i<n; i++)
+        {
+            silnia*=tablica[i];
+        }
+        System.out.println(silnia);
+    return tablica;
+    }
 
+    public static void main(String[] args) {
+        Task9.powersOfTwo(6);
     }
 }
 
