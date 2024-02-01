@@ -1,8 +1,10 @@
+import static jdk.nashorn.internal.objects.Global.undefined;
+
 public class Task11 {
     public int countSheeps(Boolean[] arrayOfSheeps) {
         int liczbaOwiec=0;
         for(int i=0; i<arrayOfSheeps.length; i++){
-            if(arrayOfSheeps[i]==true){
+            if (arrayOfSheeps[i] != null && arrayOfSheeps[i].booleanValue()){
                 liczbaOwiec = liczbaOwiec+1; }
         }
         return liczbaOwiec;
