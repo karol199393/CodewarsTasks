@@ -1,4 +1,4 @@
-public class Task17 {
+public class CreateBox {
 
         public static int[][] createBox(int width, int length) {
             int[][] result = new int[length][width];

@@ -1,4 +1,4 @@
-public class Task4 {
+public class AnnualQuarters {
     public static int quarterOf(int month) {
         if(month>0 && month<=3){
             System.out.println("1 quarter");

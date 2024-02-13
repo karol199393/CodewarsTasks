@@ -1,6 +1,6 @@
 import static org.junit.Assert.assertEquals;
 
-public class Task13 {
+public class ArrayPlusArray {
     public static int arrayPlusArray(int[] arr1, int[] arr2) {
         int countTable1 = 0;
         int countTable2 = 0;
@@ -17,6 +17,6 @@ public class Task13 {
         return countTable1 + countTable2;
     }
     public static void main(String[] args) {
-        assertEquals(21, Task13.arrayPlusArray(new int[]{1,2,3}, new int[]{4,5,6}));
+        assertEquals(21, ArrayPlusArray.arrayPlusArray(new int[]{1,2,3}, new int[]{4,5,6}));
     }
     }

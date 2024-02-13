@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Random;
 
-public class Task15 {
+public class NumbersPlayer1 {
     public LinkedList NumbersPlayer1() {
         LinkedList m = new LinkedList();
         Random generator = new Random();
@@ -12,7 +12,7 @@ public class Task15 {
         return m;
     }
     public static void main(String[] args) {
-        Task15 task=new Task15();
+        NumbersPlayer1 task=new NumbersPlayer1();
         System.out.println(task.NumbersPlayer1());
         }
     }

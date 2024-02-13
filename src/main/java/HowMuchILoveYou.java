@@ -1,4 +1,4 @@
-public class Task7 {
+public class HowMuchILoveYou {
     public static String howMuchILoveYou(int nb_petals) {
         switch (nb_petals % 6) {
             case 1:
@@ -23,6 +23,6 @@ public class Task7 {
 
 
     public static void main(String[] args) {
-        System.out.println(Task7.howMuchILoveYou(1));
+        System.out.println(HowMuchILoveYou.howMuchILoveYou(1));
     } }
 

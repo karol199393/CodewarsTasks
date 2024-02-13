@@ -1,4 +1,4 @@
-public class Task1 {
+public class SumWithoutMinAndMax {
     public static int sum(int[] numbers) {
        int suma = 0;
        if(numbers == null){

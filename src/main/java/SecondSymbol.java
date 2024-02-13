@@ -1,4 +1,4 @@
-public class Task16 {
+public class SecondSymbol {
     public static int secondSymbol(String str, char c) {
         int countChar = 0;
         int index=0;
@@ -18,7 +18,7 @@ public class Task16 {
         }
 
     public static void main(String[] args) {
-        Task16 task=new Task16();
+        SecondSymbol task=new SecondSymbol();
         System.out.println(secondSymbol("NAPISHEHEHE",'E'));
     }
 }

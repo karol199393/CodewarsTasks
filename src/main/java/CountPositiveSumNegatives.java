@@ -1,6 +1,6 @@
 import static org.junit.Assert.assertArrayEquals;
 
-public class Task12 {
+public class CountPositiveSumNegatives {
     public static int[] countPositivesSumNegatives(int[] input)
     {   if(input==null){
         return new int[]{};
@@ -26,7 +26,7 @@ public class Task12 {
     public static void main(String[] args) {
         int[] inputArray = {};
 
-        int[] result = Task12.countPositivesSumNegatives(inputArray);
+        int[] result = CountPositiveSumNegatives.countPositivesSumNegatives(inputArray);
 
         // Wydrukowanie wyniku
         System.out.println("Liczba dodatnich: " + result[0]);

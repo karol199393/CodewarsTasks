@@ -1,4 +1,4 @@
-public class Task9 {
+public class Strong {
     public static long[] powersOfTwo(int n){
         long[] tablica=new long[n];
         int silnia=1;
@@ -6,7 +6,6 @@ public class Task9 {
     for(int i=0; i<n; i++)
     {
         tablica[i]=i+1;
-
     }
         for(int i=0; i<n; i++)
         {
@@ -17,7 +16,7 @@ public class Task9 {
     }
 
     public static void main(String[] args) {
-        Task9.powersOfTwo(6);
+        Strong.powersOfTwo(6);
     }
 }
 

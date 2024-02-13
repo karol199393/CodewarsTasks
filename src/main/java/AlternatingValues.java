@@ -1,4 +1,4 @@
-public class Task19 {
+public class AlternatingValues {
     public static String[] alternate(int n, String firstValue, String secondValue) {
         String [] tablica=new String[n];
         for(int i=0; i<n; i++){

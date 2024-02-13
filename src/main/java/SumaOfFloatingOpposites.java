@@ -1,4 +1,4 @@
-public class Task6 {
+public class SumaOfFloatingOpposites {
     public static double sum(double[] numbers) {
         double sum=0;
         for(int i=0; i<numbers.length; i++)
@@ -12,8 +12,6 @@ public class Task6 {
         double[] numbers=new double[]{2.3,5,7,8};
         double sum=sum(numbers);
         System.out.println(sum);
-
-
     }
 
 }

@@ -1,4 +1,4 @@
-public class Task8 {
+public class MonkeyCount {
     public static int[] monkeyCount(final int n){
         int [] tablica=new int[n];
         for(int i=0; i < n; i++ ){
@@ -11,6 +11,6 @@ public class Task8 {
 
     public static void main(String[] args) {
 
-        System.out.print(Task8.monkeyCount(6));
+        System.out.print(MonkeyCount.monkeyCount(6));
     }
 }

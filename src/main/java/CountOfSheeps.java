@@ -1,6 +1,4 @@
-import static jdk.nashorn.internal.objects.Global.undefined;
-
-public class Task11 {
+public class CountOfSheeps {
     public int countSheeps(Boolean[] arrayOfSheeps) {
         int liczbaOwiec=0;
         for(int i=0; i<arrayOfSheeps.length; i++){
@@ -11,7 +9,7 @@ public class Task11 {
     }
 
     public static void main(String[] args) {
-        Task11 task=new Task11();
+        CountOfSheeps task=new CountOfSheeps();
         Boolean[] array1 = {true,  true,  true,  false,
                 true,  true,  true,  true ,
                 true,  false, true,  false,

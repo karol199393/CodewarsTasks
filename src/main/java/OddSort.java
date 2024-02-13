@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Task2 {
+public class OddSort {
     public static void main(String[] args) {
     int [] array ={6,7,2,4,1,0,9};
     for (int i=0 ; i< array.length-1 ; i++)

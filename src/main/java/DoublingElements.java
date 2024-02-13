@@ -1,8 +1,6 @@
-import org.junit.Test;
-
 import static org.junit.Assert.assertArrayEquals;
 
-public class Task5 {
+public class DoublingElements {
 
         public static int[] map(int[] arr) {
             int [] tablica=new int[arr.length];
@@ -13,13 +11,13 @@ public class Task5 {
         }
 
     public void sampleTests() {
-        assertArrayEquals(new int[] {2, 4, 6}, Task5.map(new int[] {1, 2, 3}));}
+        assertArrayEquals(new int[] {2, 4, 6}, DoublingElements.map(new int[] {1, 2, 3}));}
 
 
 
 
     public static void main(String[] args) {
-            Task5 test=new Task5();
+            DoublingElements test=new DoublingElements();
 
 
 
