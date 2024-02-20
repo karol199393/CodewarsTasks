@@ -7,17 +7,23 @@ public class FindMaxValueInString {
         for(int i=0; i<s.length();i++) {
              if(Character.isDigit(s.charAt(i))){
                  ifNumber += s.charAt(i);
+                    if(Integer.parseInt(ifNumber)>maxValue){
+                        maxValue=Integer.parseInt(ifNumber);
+                    }
              }
              else {
                  listOfNumbers.add(ifNumber);
                  ifNumber=""; }
         }
-        System.out.println(listOfNumbers);
+
         return maxValue;
+
     }
 
     public static void main(String[] args) {
         System.out.println(solve("2ti9iei7qhr5"));
+        System.out.println(solve("gh12cdy695m1"));
+
     }
 }
 
